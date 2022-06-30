@@ -1,0 +1,16 @@
+// Даны два числа. Показать большее и меньшее число.
+
+
+int numberA = 5;
+int numberB = 88;
+
+if(numberA > numberB)
+{
+    Console.WriteLine("Меньшее число: " + numberB);
+    Console.WriteLine("Большее число: " + numberA);
+}
+else
+{   
+    Console.WriteLine("меньшее число: " + numberA);
+    Console.WriteLine("Большее число: " + numberB);
+  }
